@@ -134,7 +134,6 @@ namespace WriteableBitmap类
                 int y = (int)e.GetPosition(myImage).Y;
                 int x = (int)e.GetPosition(myImage).X;
                 DrawPixels(x, y);
-                //Console.WriteLine(e.GetPosition(myImage));
             }
         }
 
