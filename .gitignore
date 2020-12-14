@@ -2,4 +2,8 @@ WriteableBitmap/bin/
 WriteableBitmap/obj/
 绘制可视化对象/bin/
 绘制可视化对象/obj/
+Unity3/obj/
+Unity3/bin/Debug/Unity3.exe
+Unity3/bin/Debug/Unity3.exe.config
+Unity3/bin/Debug/Unity3.pdb
 .vs/

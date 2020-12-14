@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteableBitmap类", "Write
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "绘制可视化对象", "绘制可视化对象\绘制可视化对象.csproj", "{4F6C4258-91F1-4E20-83EE-4C76AA41ED23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLight源码学习", "MVVMLight源码学习\MVVMLight源码学习.csproj", "{88950146-758C-49EA-9828-42F06D2ED4F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3", "Unity3\Unity3.csproj", "{C432D3AB-7357-43DB-A91A-25641E7D7F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{4F6C4258-91F1-4E20-83EE-4C76AA41ED23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6C4258-91F1-4E20-83EE-4C76AA41ED23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6C4258-91F1-4E20-83EE-4C76AA41ED23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88950146-758C-49EA-9828-42F06D2ED4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88950146-758C-49EA-9828-42F06D2ED4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88950146-758C-49EA-9828-42F06D2ED4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88950146-758C-49EA-9828-42F06D2ED4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C432D3AB-7357-43DB-A91A-25641E7D7F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C432D3AB-7357-43DB-A91A-25641E7D7F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C432D3AB-7357-43DB-A91A-25641E7D7F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C432D3AB-7357-43DB-A91A-25641E7D7F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
