@@ -1,47 +1,47 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Unity;
+using Unity.Injection;
+using Unity.Lifetime;
 using Unity.Resolution;
-using Unity3.Business;
-using Unity3.Model;
 
 namespace Unity3
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            SimpleIOC ioc = new SimpleIOC();
 
-            IUnityContainer container = new UnityContainer();
+            ioc.RegisterType<ICar, Audi>();
+            ioc.RegisterType<ICarKey, AudiKey>();
 
-            container.RegisterType(typeof(IUser), typeof(UserManager1));
-            IUser user = container.Resolve<IUser>();
-            user = container.Resolve<IUser>(new ResolverOverride[]
-            {
-                new ParameterOverride("user", new User { UserName = "张含韵", UserId = 999, Password = "ijoiyioyhe" })
-            });
-
-            user.PrintUser();
-
-
-            container.RegisterType<ICompany, CompanyManger1>();
-            ICompany company = container.Resolve<ICompany>();
-            company = container.Resolve<ICompany>(new ResolverOverride[]
-                {
-                    new ParameterOverride("company",new Company{ CompanyName="聚芯微电子",CompanyId=999})
-                });
-                
-            company.PrintCompany();
-
-
-            container.RegisterType<FullNeed>();
-            FullNeed full = container.Resolve<FullNeed>();
+            Driver driver = ioc.Resolve<Driver>();
+            driver.RunCar();
 
 
             Console.ReadKey();
+        }
+    }
+
+    public class Driver
+    {
+        private ICar _car = null;
+        private ICarKey _key = null;
+        private Guid guid = Guid.NewGuid();
+        public Driver(ICar car, ICarKey key)
+        {
+            _car = car;
+            _key = key;
+        }
+
+        public Driver(ICar car)
+        {
+            _car = car;
+        }
+
+        public void RunCar()
+        {
+            Console.WriteLine($"{guid.ToString()} Running {_car?.GetType().Name} with {_key?.GetType().Name} - {_car?.Run()} mile ");
         }
     }
 }
