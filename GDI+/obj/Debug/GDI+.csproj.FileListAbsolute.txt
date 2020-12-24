@@ -1,0 +1,15 @@
+D:\02Personal\Project\WPFDemo\GDI+\bin\Debug\GDI+.exe
+D:\02Personal\Project\WPFDemo\GDI+\bin\Debug\GDI+.exe.config
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+.csprojAssemblyReference.cache
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\MainWindow.g.cs
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\App.g.cs
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+_MarkupCompile.cache
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+_MarkupCompile.lref
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\MainWindow.baml
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+.g.resources
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI_.Properties.Resources.resources
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+.csproj.GenerateResource.cache
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+.csproj.CoreCompileInputs.cache
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+.exe
+D:\02Personal\Project\WPFDemo\GDI+\obj\Debug\GDI+.pdb
+D:\02Personal\Project\WPFDemo\GDI+\bin\Debug\GDI+.pdb
